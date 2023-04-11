@@ -40,5 +40,7 @@ exclude:
   - package-lock.json
   - jekyll-rtd-theme.gemspec
 
+markdown: kramdown
+
 baseurl: ""
 url: "thoven404.github.io"
