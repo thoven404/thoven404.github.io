@@ -1,6 +1,6 @@
-title: jekyll-rtd-theme
-lang: en
-description: GitHub-flavored docs theme for Jekyll
+title: Thoven's Notes
+lang: cn
+description: 学习笔记汇总
 
 theme: null
 
@@ -41,4 +41,4 @@ exclude:
   - jekyll-rtd-theme.gemspec
 
 baseurl: ""
-url: "kimkyunghwan21.github.io"
+url: "thoven404.github.io"
