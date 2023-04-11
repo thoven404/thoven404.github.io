@@ -1,8 +1,8 @@
 ---
-sort: 3
+sort: 1
 ---
 
-# 点线SLAM
+# 基础
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
