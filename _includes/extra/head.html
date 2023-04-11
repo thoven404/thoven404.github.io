@@ -1,10 +1,18 @@
 <!-- 数学公式 -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-        tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
         }
+      },
+      tex2jax: {
+        inlineMath: [ ['$','$'], ['\(', '\)'] ],
+        displayMath: [ ['$$','$$'] ],
+        processEscapes: true,
+      }
     });
-</script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  </script>
+  <script type="text/javascript"
+          src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
