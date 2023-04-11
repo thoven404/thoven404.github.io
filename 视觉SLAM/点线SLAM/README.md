@@ -4,7 +4,4 @@ sort: 3
 
 # 点线SLAM
 
-```
-{% raw %}{% include list.liquid all=true %}{% endraw %}
-```
 {% include list.liquid all=true %}
