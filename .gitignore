@@ -7,3 +7,5 @@ _site
 *.whl
 Gemfile.lock
 package-lock.json
+
+.vscode
