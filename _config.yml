@@ -1,5 +1,6 @@
 title: Thoven's Notes
-lang: zh-cn
+lang: en
+# lang: zh-cn
 description: 个人学习笔记
 
 theme: null
@@ -41,6 +42,9 @@ exclude:
   - jekyll-rtd-theme.gemspec
 
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 
 baseurl: ""
 url: "thoven404.github.io"
