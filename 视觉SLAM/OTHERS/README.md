@@ -1,7 +1,7 @@
 ---
-sort: 4
+sort: 100
 ---
 
-# Ceres
+# OTHERS
 
 {% include list.liquid all=true %}
