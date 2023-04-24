@@ -37,7 +37,7 @@ noetic 版本的 cv_bridge 功能包使用的是 opencv4，但是同样会因为
     下载 noetic 版本的 cv_bridge。（noetic 版本的 cv_bridge 在 melodic 下也能使用，不过要做一些修改，后续会说明）  
     下载地址：```https://github.com/ros-perception/vision_opencv/tree/noetic```  
     下载完成后，将 cv_bridge 拷贝到 ros 工作空间的 src 文件夹下。  
-    为了不影响原来的包，将该文件夹重命名为 cv_bridge_new，并且将 CMakelists.txt 文件中 project 名称修改为 cv_bridge_new：
+    为了不影响原来的包，将该文件夹重命名为 cv_bridge_new，并且将文件夹下 CMakeLists.txt 文件中 project 名称修改为 cv_bridge_new：
 
 	```python
 	project(cv_bridge_new)
@@ -51,7 +51,7 @@ noetic 版本的 cv_bridge 功能包使用的是 opencv4，但是同样会因为
 	  ...
 	```
 
-	在 CMakelists.txt 文件中指定我们自己的功能包中所用的 opencv4：
+	在 CMakeLists.txt 文件中指定我们自己的功能包中所用的 opencv4：
 
 	```python
 	...
