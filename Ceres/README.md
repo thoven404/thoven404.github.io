@@ -1,7 +1,7 @@
 ---
-sort: 4
+sort: 3
 ---
 
-# Ceres
+# Ceres Solver
 
 {% include list.liquid all=true %}
